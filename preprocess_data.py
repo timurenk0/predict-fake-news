@@ -21,8 +21,3 @@ def preprocess_data(file_path):
     df = df.dropna(subset=["statement", "label"])
 
     return df
-
-
-if __name__ == "__main__":
-    train_df = preprocess_data("datasets/raw/train.tsv")
-    train_df.to_csv("datasets/train_processed.csv")
