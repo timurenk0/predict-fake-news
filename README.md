@@ -79,6 +79,11 @@ Run the complete pipeline (dataset download → preprocessing → training):
 python main.py
 ```
 
+You can also run predict.py separately to test model's capabilities. Input any statement from the test dataset and run script:
+```bash
+python predict.py
+```
+
 This process will:
 
 * Download the LIAR dataset (if not already available)
